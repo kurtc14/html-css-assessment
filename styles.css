@@ -1,0 +1,22 @@
+.wide-header {
+    color: green;
+}
+
+.narrow-header {
+    color: blue;
+}
+
+
+
+    @media (min-width: 800px) {
+    .narrow-header {
+        display: none;
+    }
+
+    }
+
+@media (max-width: 800px) {
+    .wide-header {
+        display: none;
+    }
+}
